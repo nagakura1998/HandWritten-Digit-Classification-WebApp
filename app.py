@@ -2,8 +2,7 @@ from flask import Flask, render_template, request
 import base64
 import json
 from io import BytesIO
-from PIL import Image
-import cnn
+import cnn2 as cnn
 
 app = Flask(__name__, template_folder='template')
 @app.route('/')
